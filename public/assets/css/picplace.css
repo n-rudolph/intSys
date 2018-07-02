@@ -95,3 +95,21 @@
     min-width: 200px;
     max-width: 200px;
 }
+
+.siema{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.post .buttons {
+    margin: auto;
+    width: 300px;
+}
+
+.post .buttons button.next {
+    margin-left: 40px;
+}
+
+.siema img{
+    max-height: 400px;
+}

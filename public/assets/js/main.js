@@ -6,6 +6,11 @@
 
 (function($) {
 
+	const mySiema = new Siema();
+	document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
+	document.querySelector('.next').addEventListener('click', () => mySiema.next());
+
+
 	var	$window = $(window),
 		$body = $('body'),
 		$wrapper = $('#wrapper'),
