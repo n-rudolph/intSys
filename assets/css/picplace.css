@@ -3,11 +3,17 @@
     width: 100%;
 }
 
+#intro img {
+    object-fit: contain;
+    width: 100%;
+    max-width: 25vw;
+}
+
 #header .logo {
     padding: 10px;
-    max-width: 12vw;
-    background: #ffffff;
-    border-color: #6c635d;
+    max-width: 20vw;
+    /* background: #ffffff; */
+    /* border-color: #6c635d; */
 }
 
 .text-logo {
@@ -41,4 +47,48 @@
     height: 35vh !important;
     width: 100% !important;
     text-align: center;
+}
+
+.storyboard .col-4{
+    background-color: #fafafa;
+    border: solid white;
+    padding: 10px;
+}
+
+.storyboard .image {
+    min-height: 400px;
+    max-height: 400px;
+    vertical-align: middle;
+}
+
+.storyboard .image.time {
+    padding-top: 70px
+}
+
+.storyboard .text {
+    text-align: center;
+    font-size: small;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.storyboard {
+    padding: 10px;
+    padding-bottom: 40px
+}
+
+.related-text {
+    padding: 15px
+}
+
+.persona p {
+    font-size: small;
+}
+
+.persona li {
+    font-size: small;
+}
+
+.persona img {
+    max-height: 200px;
 }
