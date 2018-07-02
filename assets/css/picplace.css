@@ -1,0 +1,44 @@
+.logo img {
+    object-fit: contain;
+    width: 100%;
+}
+
+#header .logo {
+    padding: 10px;
+    max-width: 12vw;
+    background: #ffffff;
+    border-color: #6c635d;
+}
+
+.text-logo {
+    width: 7vw;
+}
+
+.image.main{
+    display: inline-block !important;
+    width: 100% !important;
+    height: 35vh !important;
+    margin: 0 !important;
+    text-align: center;
+}
+.imp-ph {
+    height: 100% !important;
+    width: 98% !important;
+    display: inline-block !important;
+    object-fit: cover;
+    object-position: top;
+}
+
+.maps, .ephe {
+    display: inline-block !important;
+    width: 49% !important;
+    height: 100% !important;
+    object-fit: cover;
+    object-position: top;
+}
+
+.secondary{
+    height: 35vh !important;
+    width: 100% !important;
+    text-align: center;
+}
